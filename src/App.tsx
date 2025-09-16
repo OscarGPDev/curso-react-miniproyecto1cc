@@ -9,13 +9,13 @@ function App() {
   
 
   return (
-    <>
+    <div className='container d-flex flex-column justify-content-between todo-page'>
       <Header></Header>
-      <div>
+      <div className='flex-grow-1'>
         <Outlet></Outlet>
       </div>
       <Footer></Footer>
-    </>
+    </div>
   )
 }
 
