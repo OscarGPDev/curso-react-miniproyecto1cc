@@ -13,7 +13,7 @@ export default function Header() {
                         <Link className="nav-link active" aria-current="page" to="/products">Productos</Link>
                     </li>
                     <li className="nav-item">
-                        <Link className="nav-link active" aria-current="page" to="/balance">Productos</Link>
+                        <Link className="nav-link active" aria-current="page" to="/balance">Balance ETH</Link>
                     </li>
                     
                 </ul>
