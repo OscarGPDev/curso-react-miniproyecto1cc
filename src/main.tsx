@@ -6,6 +6,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import Products from './pages/Products.tsx'
 import Balance from './pages/Balance.tsx'
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query'
+import Formulario from './pages/Formulario.tsx'
 
 const queryClient = new QueryClient()
 
@@ -17,6 +18,7 @@ createRoot(document.getElementById('root')!).render(
           <Route path="/" element={<App />} >
             <Route path="/products" element={<Products />} />
             <Route path="/balance" element={<Balance />} />
+            <Route path="/form-send" element={<Formulario />} />
           </Route>
         </Routes>
       </BrowserRouter>
